@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import * as React from 'react'
 import Header from './components/Header'
+import Introduction from './components/Introduction'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
       </section>
 
       <section id="introduction"> 
-       <p>Introduction</p>
+        <Introduction/>
       </section>
 
 
