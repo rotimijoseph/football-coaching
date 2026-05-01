@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Introduction from './components/Introduction'
 import TrainingPrograms from './components/TrainingPrograms'
 import Testimonials from './components/Testimonials'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,9 +24,13 @@ function App() {
       <section id="testimonials"> 
         <Testimonials/>
       </section>
-
       <section id="contact">
+        <Contact/>
+      </section>
+
+      <section id="footer">
         <div id="social">
+          <p>Follow Us</p>
           <ul>
             <li>
               <a href="https://github.com/vitejs/vite" target="_blank">
@@ -42,8 +47,6 @@ function App() {
           </ul>
         </div>
       </section>
-
-      <section id="footer"></section>
     </>
   )
 }
