@@ -3,6 +3,8 @@ import './App.css'
 import * as React from 'react'
 import Header from './components/Header'
 import Introduction from './components/Introduction'
+import TrainingPrograms from './components/TrainingPrograms'
+import Testimonials from './components/Testimonials'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,25 +14,14 @@ function App() {
      <section id="header"> 
        <Header/>
       </section>
-
       <section id="introduction"> 
         <Introduction/>
       </section>
-
-
       <section id="training-programs">
-        <p>Training Programs</p>
+        <TrainingPrograms/>
       </section>
-
       <section id="testimonials"> 
-        <p>Testimonials </p>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+        <Testimonials/>
       </section>
 
       <section id="contact">
