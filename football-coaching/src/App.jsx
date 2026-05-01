@@ -6,6 +6,7 @@ import Introduction from './components/Introduction'
 import TrainingPrograms from './components/TrainingPrograms'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,25 +28,8 @@ function App() {
       <section id="contact">
         <Contact/>
       </section>
-
       <section id="footer">
-        <div id="social">
-          <p>Follow Us</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Footer/>
       </section>
     </>
   )
