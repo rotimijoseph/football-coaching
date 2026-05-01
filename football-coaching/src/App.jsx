@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import * as React from 'react'
+import Header from './components/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
      <section id="header"> 
-       <p>Header</p>
+       <Header/>
       </section>
 
       <section id="introduction"> 
@@ -16,8 +17,8 @@ function App() {
       </section>
 
 
-      <section id="training-plans">
-        <p>Training Plan</p>
+      <section id="training-programs">
+        <p>Training Programs</p>
       </section>
 
       <section id="testimonials"> 
