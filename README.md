@@ -1,6 +1,6 @@
 # Football Coaching Landing Page
 
-*Ro-Motion* is an Elite Women's Football Coaching company. Want to become the next Alexia Putellas or Aitana Bonmati? Look no further. An easy to navigate website, where you can view different courses on offer, book a free session, read about player testimonals or contact us to find out more. Look forward to hearing from you.  
+*Ro-Motion* is an Elite Women's Football Coaching service. Want to become the next Alexia Putellas or Aitana Bonmati? Look no further. An easy to navigate website, where you can view different courses on offer, book a free session, read about player testimonals or contact us to find out more. Look forward to hearing from you.  
 
 ---
 
