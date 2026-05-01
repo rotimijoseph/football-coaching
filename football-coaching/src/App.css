@@ -250,3 +250,27 @@
     border-right-color: var(--border);
   }
 }
+
+/* refactor */
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#header ul li {
+  float: left;
+}
+
+#header ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#header ul li a:hover {
+  background-color: grey;
+}

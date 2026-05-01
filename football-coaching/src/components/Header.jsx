@@ -1,16 +1,15 @@
 import * as React from 'react'
-// import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 export default function Header() {
     return (
-        <nav>
+        <nav id="nav">
             <h1>Elite Football Coaching</h1>
-            <div>
-                <section><a href="#training-plans">Training Programs</a></section>
-                <section><a href="#testimonials">Testimonials</a></section>
-                <section><a href="#contact">Contact</a></section>
-                <section><a>Book Free Session</a></section>
-            </div>
+                <ul>
+                    <li><a href="#training-programs">Training Programs</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a>Book Free Session</a></li>
+                </ul>
         </nav>
     )
 }
