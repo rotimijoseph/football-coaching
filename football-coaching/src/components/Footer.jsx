@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 Ro-MotionElite Football Coaching. All rights reserved.
+        © 2026 Ro-Motion Elite Football Coaching. All rights reserved.
       </div>
 
     </footer>
