@@ -14,12 +14,12 @@ export default function Introduction() {
         </p>
   
         <div className="intro-button-group">
-          <button className="intro-button primary">
+          <a href="#contact" className="intro-button primary">
             Book Your Free Session
-          </button>
-          <button className="intro-button secondary">
+          </a>
+          <a href="#training-programs" className="intro-button secondary">
             View Courses
-          </button>
+          </a>
         </div>
       </div>
     );

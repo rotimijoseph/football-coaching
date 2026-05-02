@@ -21,6 +21,7 @@
 .intro-button.primary {
   background: linear-gradient(90deg, purple, blue);
   color: white;
+  text-decoration: none;
 }
 
 .intro-button.primary:hover {
@@ -31,6 +32,7 @@
   background: transparent;
   color: white;
   border: 1px solid #666;
+  text-decoration: none;
 }
 
 .intro-button.secondary:hover {
