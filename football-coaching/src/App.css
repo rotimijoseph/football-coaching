@@ -164,11 +164,7 @@
 
 #training-programs h1 {
   color: white;
-  font-size: 2.5rem;
-}
-
-#training-programs h1 {
-  color: white;
+  margin-bottom: 50px;
 }
 
 #training-programs h2 {
@@ -194,7 +190,7 @@
 
 #testimonials h1 {
   color: white;
-  font-size: 2.5rem;
+  padding-top: 60px;
 }
 
 #testimonials p {
