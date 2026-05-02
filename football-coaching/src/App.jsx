@@ -12,9 +12,7 @@ function App() {
 
   return (
     <>
-     <section id="header"> 
        <Header/>
-      </section>
       <section id="introduction"> 
         <Introduction/>
       </section>
