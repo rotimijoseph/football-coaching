@@ -1,4 +1,5 @@
 /* TODO: create a different card type for player testimonials */
+/* TODO: split into different files */
 
 .intro {
   max-width: 900px;
@@ -399,7 +400,7 @@
   align-items: center;
 
   padding: 15px 60px;
-  background: rgba(0, 0, 0, 0.9);
+  background: black;
   backdrop-filter: blur(10px);
 }
 
