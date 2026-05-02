@@ -1,37 +1,46 @@
 import * as React from 'react'
 
 export default function Footer() {
-    return(
-        <>
-        <div id="quick-links">
-            <p>Quick Links</p>
-            <section><a href="#training-plans">Training Programs</a></section>
-            <section><a href="#testimonials">Testimonials</a></section>
-            <section><a href="#contact">Contact</a></section>
+  return (
+    <footer id="footer">
+
+      <div className="footer-container">
+
+        <div className="footer-brand">
+          <h2>Ro-Motion Elite Football Coaching</h2>
+          <p>
+            Professional football coaching for players at all levels, from beginners to elite athletes.
+          </p>
         </div>
-        <div id="courses">
-            <p>Courses</p>
-            <section><a href="#beginner">Beginner Training</a></section>
-            <section><a href="#advanced">Advanced Coaching</a></section>
-            <section><a href="#elite">Elite Preperation</a></section>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="#training-programs">Training Programs</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
         </div>
-        <div id="social">
-          <p>Follow Us</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-          </ul>
+        <div>
+          <h3>Programs</h3>
+          <a href="#beginner">Beginner Training</a>
+          <a href="#advanced">Advanced Coaching</a>
+          <a href="#elite">Elite Preparation</a>
         </div>
-        </>
-    )
+
+        <div>
+          <h3>Follow Us</h3>
+          <div className="socials">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="footer-bottom">
+        © 2026 Ro-MotionElite Football Coaching. All rights reserved.
+      </div>
+
+    </footer>
+  );
 }
