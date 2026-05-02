@@ -57,7 +57,94 @@
   font-size: 20px;
 }
 
+#training-programs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background: #050510;
+  padding: 80px 20px;
+}
 
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #0a0a23;
+  border: 1px solid #6a00ff;
+  border-radius: 16px;
+  padding: 30px;
+  width: 300px;
+  color: white;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.featured {
+  transform: scale(1.05);
+  border: 2px solid #8a2cff;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, purple, blue);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.card h3 {
+  font-size: 2rem;
+}
+
+.card span {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+.card button {
+  margin-top: auto;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, purple, blue);
+}
+
+#training-programs h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+#training-programs h1 {
+  color: white;
+}
+
+#training-programs h2 {
+  color: white;
+}
 
 #testimonials {
   display: flex;
@@ -66,7 +153,7 @@
   place-content: center;
   place-items: center;
   flex-grow: 1;
-  border-top: 1px solid var(--border);
+  border-top: 0px solid var(--border);
 
   @media (max-width: 1024px) {
     padding: 32px 20px 24px;
@@ -105,20 +192,7 @@
   }
 }
 
-#training-programs {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  place-content: center;
-  place-items: center;
-  flex-grow: 1;
-  border-top: 1px solid var(--border);
 
-  @media (max-width: 1024px) {
-    padding: 32px 20px 24px;
-    gap: 18px;
-  }
-}
 
 #footer {
   display: flex;
