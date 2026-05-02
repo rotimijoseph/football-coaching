@@ -157,7 +157,7 @@
   flex-grow: 1;
   border-top: 0px solid var(--border);
   background-color: #050510;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 
   @media (max-width: 1024px) {
     padding: 32px 20px 24px;
@@ -191,24 +191,6 @@
     gap: 18px;
   }
 }
-
-
-
-#contact {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  place-content: center;
-  place-items: center;
-  flex-grow: 1;
-  border-top: 1px solid var(--border);
-
-  @media (max-width: 1024px) {
-    padding: 32px 20px 24px;
-    gap: 18px;
-  }
-}
-
 
 
 #footer {
@@ -298,16 +280,102 @@
 #contact {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  place-content: center;
-  place-items: center;
-  flex-grow: 1;
-  border-top: 1px solid var(--border);
+  align-items: center;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: radial-gradient(circle at top, #0a0a23, #02020a);
+  color: white;
+}
 
-  @media (max-width: 1024px) {
-    padding: 32px 20px 24px;
-    gap: 18px;
+.subtitle {
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 100px;
+  max-width: 1200px;
+  width: 1000px;
+}
+
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
   }
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #6a00ff;
+  background: transparent;
+  color: white;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, purple, blue);
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-item .label {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.office-hours {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  border: 1px solid #6a00ff;
+
+  background: rgba(255, 255, 255, 0.03);
+}
+
+#contact h1 {
+  color: white;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact h3 {
+  color: white;
+}
+
+#contact p {
+  color: white;
 }
 
 /* refactor */
