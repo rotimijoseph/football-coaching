@@ -17,6 +17,8 @@
 Run Locally:
 `git clone`
 `cd football-coaching`
+`npm install`
+`npm run dev`
 
 Deployment:
 - Coming soon... 
