@@ -118,6 +118,27 @@
   gap: 15px;
 }
 
+.testimonial-card {
+  background: #0a0a23;
+  border: 1px solid #6a00ff;
+  border-radius: 16px;
+  padding: 30px;
+  width: 300px;
+  color: white;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  text-align: left;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  font-size: 17px;
+}
+
 .featured {
   transform: scale(1.05);
   border: 2px solid #8a2cff;

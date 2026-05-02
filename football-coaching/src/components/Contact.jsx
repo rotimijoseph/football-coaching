@@ -9,8 +9,7 @@ export default function Contact() {
         </p>
   
         <div className="contact-container">
-  
-          {/* LEFT: FORM */}
+
           <div className="contact-form">
             <h2>Send us a message</h2>
   
@@ -23,7 +22,6 @@ export default function Contact() {
             </form>
           </div>
   
-          {/* RIGHT: INFO */}
           <div className="contact-info">
             <h2>Contact Information</h2>
   
